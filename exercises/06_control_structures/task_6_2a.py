@@ -17,3 +17,23 @@
 
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 """
+#ip = input("Введите ip адресс: ")
+ip = "100.0.1.1"
+split_ip = ip.split(".")
+#for i in split_ip:
+#    if (i.isdigit() == True) and (int(i) >= 0 and int(i) <= 255) and (len(split_ip) == 4):
+
+        # if split_ip[0] >= "1" and split_ip[0] <= "223":
+        #     print("unicast")
+        # elif split_ip[0] >= "224" and split_ip[0] <= "239":
+        #     print("multicast")
+        # elif ip == "255.255.255.255":
+        #     print("local broadcast")
+        # elif ip == "0.0.0.0":
+        #     print("unassigned")
+        # else:
+        #     print("unused")
+
+
+#    else: print("Неправильный IP-адрес")
+
